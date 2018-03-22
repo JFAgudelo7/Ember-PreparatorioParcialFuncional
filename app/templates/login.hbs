@@ -1,0 +1,16 @@
+<div class="title">
+  <h1>Login</h1>
+</div>
+<div class="incorrect">
+  <p>{{incError}}</p>
+</div>
+<div class="form">
+  Username:<br>
+  {{input type="text" id="username" value=username}}
+  <br>
+  Password:<br>
+  {{input type="password" id="password" autocomplete="off" value=password}}
+  <br><br>
+  <button type="button" {{action 'autLogin'}}>Send</button>
+</div>
+{{outlet}}

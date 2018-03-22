@@ -1,0 +1,11 @@
+<div class="title">
+  <h1>People List</h1>
+</div>
+<ul class="menu">
+  {{#each model.people as |person|}}
+    <li><a href="#">
+        {{person.name}}
+    </a></li>
+  {{/each}}
+</ul>
+{{outlet}}

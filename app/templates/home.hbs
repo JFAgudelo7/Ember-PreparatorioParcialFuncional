@@ -1,0 +1,15 @@
+<div class="title">
+  <h1>Home</h1>
+</div>
+<ul class="menu">
+  {{#link-to 'register'}}
+    <li><a href="#">REGISTER</a></li>
+  {{/link-to}}
+  {{#link-to 'calculator'}}
+    <li><a href="#">CALCULATOR</a></li>
+  {{/link-to}}
+  {{#link-to 'list'}}
+    <li><a href="#">PEOPLE LIST</a></li>
+  {{/link-to}}
+</ul>
+{{outlet}}

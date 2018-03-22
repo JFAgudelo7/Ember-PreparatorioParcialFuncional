@@ -1,0 +1,25 @@
+<div class="title">
+  <h1>Register</h1>
+</div>
+<div class="incorrect">
+  <p>{{incError}}</p>
+</div>
+<div class="form">
+  username:<br>
+  {{input type="text" id="username" value=username}}
+  <br>
+  password:<br>
+  {{input type="password" id="password" value=password}}
+  <br>
+  Name:<br>
+  {{input type="text" id="name" value=name}}
+  <br>
+  Salary:<br>
+  {{input type="number" id="salary" value=salary}}
+  <br>
+  Gender:<br>
+  {{input type="text" id="gender" value=gender}}
+  <br><br>
+  <button type="button" {{action 'localRegister'}}>Send</button>
+</div>
+{{outlet}}

@@ -1,0 +1,90 @@
+body{
+  font-family: sans-serif;
+  font-size: 16px;
+  color: BLACK;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: Black;
+    border-radius: 1em;
+}
+.nav li {
+    float: left;
+}
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+.nav li a:hover {
+    background-color: GRAY;
+}
+.logout{
+    float: right;
+}
+
+.title {
+  text-align: center;
+  margin: auto;
+  background-color: lightBlue ;
+  margin-top: 0.5em;
+  padding: 0.5em;
+  width: 50%;
+  border-radius: 1em;
+}
+
+.form{
+  text-align: center;
+  margin: auto;
+  margin-top: 0.5em;
+  padding: 0.5em;
+}
+
+.incorrect{
+  text-align: center;
+  margin: auto;
+  background-color: white ;
+  width: 50%;
+  border-radius: 1em;
+}
+.incorrect p{
+  color: white;
+}
+
+.menu {
+    list-style-type: none;
+    margin: auto;
+    margin-top: 2.5em;
+    width: 25%;
+    padding: 0;
+    overflow: hidden;
+    background-color: WhiteSmoke;
+    border-radius: 0.5em;
+    text-decoration: none;
+}
+.menu li{}
+.menu li a {
+    border: thin;
+    display: block;
+    font-weight: bold;
+    color: Black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+.menu li a:hover {
+    background-color: Gray;
+}
+
+.calculator{
+  text-align: center;
+  margin: auto;
+  margin-top: 0.5em;
+  padding: 0.5em;
+}
